@@ -1,13 +1,25 @@
+body {
+  background-color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 .tweet {
-  border: 1px solid chocolate;
-  border-radius: 3px;
+  color: aliceblue;
+  border: 3px solid chocolate;
+  border-radius: 5px;
   margin: 20px 20%;
   padding: 20px;
 }
 
-.username,
+.username {
+  color: lawngreen;
+  display: inline-block;
+  margin: 5px 10px;
+}
+
 .date {
   color: lawngreen;
   display: inline-block;
-  margin: 0 10px;
+  margin: 5px 10px;
 }
