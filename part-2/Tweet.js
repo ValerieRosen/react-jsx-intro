@@ -1,4 +1,4 @@
-function Tweet({ username, name, date, message }) {
+function Tweet({ name, username, date, message }) {
   return (
     <div className="tweet">
       <span>{name}</span>
